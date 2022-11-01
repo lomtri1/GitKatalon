@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression" time="4.337" tests="3" failures="0" errors="0">
+   <testsuite name="Regression" tests="3" failures="0" errors="0" time="4.337" skipped="0" timestamp="2022-10-31 20:22:52" hostname="lavanya.omtri - GS-0291073-LOMT.cggs.local" id="Test Suites/Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lavanya.omtri\\git\\GitKatalon1\\Reports\\20221031_202240\\Regression\\20221031_202240"/>
+         <property name="logFiles" value="C:\\Users\\lavanya.omtri\\git\\GitKatalon1\\Reports\\20221031_202240\\Regression\\20221031_202240\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lavanya.omtri - GS-0291073-LOMT.cggs.local"/>
+         <property name="hostAddress" value="192.168.1.131"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+      </properties>
+      <testcase name="Test Cases/GetSingleUser" time="3.131" classname="Test Cases/GetSingleUser" status="PASSED">
+         <system-out><![CDATA[2022-10-31 20:22:52 - [TEST_CASE][PASSED] - Test Cases/GetSingleUser: Test Cases/GetSingleUser
+
+2022-10-31 20:22:52 - [TEST_STEP][PASSED] - sendRequest(findTestObject("GetSingleUser")): Send request successfully
+
+2022-10-31 20:22:55 - [MESSAGE][INFO] - HAR: C:\Users\lavanya.omtri\git\GitKatalon1\Reports\20221031_202240\Regression\20221031_202240\requests\main\0.har
+
+2022-10-31 20:22:55 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GetUsers" time="0.452" classname="Test Cases/GetUsers" status="PASSED">
+         <system-out><![CDATA[2022-10-31 20:22:55 - [TEST_CASE][PASSED] - Test Cases/GetUsers: Test Cases/GetUsers
+
+2022-10-31 20:22:55 - [TEST_STEP][PASSED] - sendRequest(findTestObject("GetUser")): Send request successfully
+
+2022-10-31 20:22:55 - [MESSAGE][INFO] - HAR: C:\Users\lavanya.omtri\git\GitKatalon1\Reports\20221031_202240\Regression\20221031_202240\requests\main\1.har
+
+2022-10-31 20:22:55 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PostUser" time="0.444" classname="Test Cases/PostUser" status="PASSED">
+         <system-out><![CDATA[2022-10-31 20:22:55 - [TEST_CASE][PASSED] - Test Cases/PostUser: Test Cases/PostUser
+
+2022-10-31 20:22:56 - [TEST_STEP][PASSED] - sendRequest(findTestObject("PostUser")): Send request successfully
+
+2022-10-31 20:22:56 - [MESSAGE][INFO] - HAR: C:\Users\lavanya.omtri\git\GitKatalon1\Reports\20221031_202240\Regression\20221031_202240\requests\main\2.har
+
+2022-10-31 20:22:56 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-31 20:22:52 - [TEST_SUITE][PASSED] - Regression: Test Cases/PostUser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

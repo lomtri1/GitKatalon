@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression,,,,2022-10-31 20:22:52,2022-10-31 20:22:56,4.337s,PASSED
+,,,,,,,
+Test Cases/GetSingleUser,,,,2022-10-31 20:22:52,2022-10-31 20:22:55,3.131s,PASSED
+"sendRequest(findTestObject(""GetSingleUser""))",,,,2022-10-31 20:22:52,2022-10-31 20:22:55,2.754s,PASSED
+,,,,,,,
+Test Cases/GetUsers,,,,2022-10-31 20:22:55,2022-10-31 20:22:55,0.452s,PASSED
+"sendRequest(findTestObject(""GetUser""))",,,,2022-10-31 20:22:55,2022-10-31 20:22:55,0.166s,PASSED
+,,,,,,,
+Test Cases/PostUser,,,,2022-10-31 20:22:55,2022-10-31 20:22:56,0.444s,PASSED
+"sendRequest(findTestObject(""PostUser""))",,,,2022-10-31 20:22:56,2022-10-31 20:22:56,0.139s,PASSED
